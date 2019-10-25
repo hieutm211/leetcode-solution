@@ -1,5 +1,6 @@
 
-#Solution for: Sort Array By Parity II
+#Problem 922. Sort Array By Parity II 
+
 link: https://leetcode.com/problems/sort-array-by-parity-ii/
 
 ##Solution 1: Trivial approach: 
