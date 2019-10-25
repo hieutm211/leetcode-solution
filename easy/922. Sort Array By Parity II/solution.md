@@ -1,11 +1,4 @@
-
-<<<<<<< HEAD:easy/922. Sort Array By Parity II/solution.md
 #Problem 922. Sort Array By Parity II 
-
-link: https://leetcode.com/problems/sort-array-by-parity-ii/
-=======
-#Solution - Sort Array By Parity II - https://leetcode.com/problems/sort-array-by-parity-ii/
->>>>>>> 070dbde7138b98f9b9afa9563cc4b34b411a2b2c:easy/Sort Array By Parity II/solution.md
 
 ##Solution 1: Trivial approach: 
 
