@@ -1,9 +1,9 @@
 
-#Problem 1160. Find Words That Can Be Formed by Characters
+# Problem 1160. Find Words That Can Be Formed by Characters
 
 link: https://leetcode.com/problems/find-words-that-can-be-formed-by-characters/
 
-#Solution 1 - Trivial Solution
+# Solution 1 - Trivial Solution
 
 To check whether a word is *good*:
 
@@ -16,7 +16,7 @@ Let T = number of words, N = word.length, M = chars.length
 Complexity for a check: O(N*M) time, O(M) space.
 Total: **O(T*N*M) time, O(M) space**
 
-#Solution 2 - Distributed count
+# Solution 2 - Distributed count
 
 Let count[c] = amount of char 'c' in the given **chars** string.
 Let count2[c] = amount of char 'c' in a **word**.
