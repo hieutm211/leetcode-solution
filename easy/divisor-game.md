@@ -21,3 +21,10 @@ func divisorGame(N int) bool {
     return f[N];
 }
 ```
+
+Fun:
+```go
+func divisorGame(N int) bool {
+    return N%2 == 0
+}
+```
