@@ -22,7 +22,7 @@ func divisorGame(N int) bool {
 }
 ```
 
-Fun:
+Reduce codes
 ```go
 func divisorGame(N int) bool {
     return N%2 == 0
