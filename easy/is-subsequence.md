@@ -43,3 +43,20 @@ func isSubsequence(s string, t string) bool {
     return f[m-1][n-1] == m
 }
 ```
+
+Solution 2: bruteforces
+
+Tìm lần lượt các phần tử của xâu s trong xâu t, sau mỗi phần tử tìm được, xóa đi của xâu t đoạn từ đầu cho đến kí tự vừa tìm được
+
+```go
+func isSubsequence(s string, t string) bool {
+    for _, c := range s {
+        idx := strings.IndexRune(t, c)
+        if idx == -1 {
+            return false
+        }
+        t = t[idx+1:]
+    }
+    return true
+}
+```
