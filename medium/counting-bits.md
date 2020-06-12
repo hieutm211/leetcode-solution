@@ -20,3 +20,18 @@ func countBits(num int) []int {
     return f
 }
 ```
+
+Solution 2:
+
+```go
+func countBits(num int) []int {
+    f := make([]int, num+1)
+    
+    f[0] = 0
+    for i := 1; i <= num; i++ {
+        f[i] = f[i/2] + i%2
+    }
+    
+    return f
+}
+```
